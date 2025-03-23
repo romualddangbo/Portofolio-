@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - N'dri Romuald Rémi Dangbo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <h1><span>N'dri Romuald Rémi</span> Dangbo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <img src="C:\Users\APROMAC\Documents\DONNEES PERSO\Photo DANGBO .jpg" alt="Photo de profil" class="profile-img">
+        </div>
+        <div class="right-column">
+            <section class="section" id="about">
+                <h2>À propos de moi</h2>
+                <p>Je suis <span>N'dri Romuald Rémi</span> Dangbo, Doctorant en Géographie, spécialisé en Géomatique et SIG.</p>
+                <p>Je suis passionné par les nouvelles technologies et les sciences de la terre.</p>
+                <p>Je suis actuellement Géomaticien à l'APROMAC et futur dévéloppeur Web.</p>
+                <a href="C:\Users\APROMAC\Downloads\CV_N'dri Romuald Rémi_DANGBO.pdf" download class="btn">Télécharger mon CV</a>
+            </section>
+        </div>
+    </div>
+
+    <section class="section projects" id="projects">
+        <h2>Projets</h2>
+        <ul>
+            <li><strong>Géomaticien - APROMAC</strong> (2024 - Actuel)</li>
+            <li><strong>Consultant Formateur - IMPS</strong> (2024)</li>
+            <li><strong>Consultant Labelers Machine Learning - Enveritas/SADEV AFRIC</strong> (2023 - 2024)</li>
+        </ul>
+    </section>
+
+    <section class="section" id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>SIG et télédétection
+                <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+            </li>
+            <li>Cartographie et analyse géospatiale
+                <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            </li>
+            <li>Pilotage et traitement d’images drones
+                <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            </li>
+            <li>Gestion de projet et suivi-évaluation
+                <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Vous avez un projet en tête?
+            <br>N'existez pas à me contacter
+        </h2>
+        <form id="contactForm">
+            <input type="text" name="surname" placeholder="Votre prenom" required>
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="text" name="subject" placeholder="Sujet" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <button id="topBtn">↑</button>
+
+    <footer>
+        <p>&copy; 2025 N'dri Romuald Rémi Dangbo - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

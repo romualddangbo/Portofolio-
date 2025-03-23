@@ -1,0 +1,132 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.header-left span {
+    color: #00eeff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #00ffee;
+}
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+}
+.left-column {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+}
+.right-column {
+    width: 60%;
+    padding: 20px;
+}
+.section {
+    text-align: left;
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #00fbff;
+    object-fit: cover;
+}
+.projects ul li {
+    transition: transform 0.3s ease-in-out;
+}
+.projects ul li:hover {
+    transform: scale(1.05);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00eeff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#contact {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+}
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+#contact button {
+    background: #00eaff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+#contact button:hover {
+    background: #02f2ff;
+    color: white;
+}
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #0cf7ef;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: none;
+}
